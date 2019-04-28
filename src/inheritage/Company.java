@@ -13,7 +13,13 @@ public class Company {  // Супер класс из которого идёт 
 		public int Compare(int x, int y) {
 			int z;
 			z = (x > y) ? x : y ;
-			System.out.println("Ваше большее число равно:= " + z);
+			System.out.println("Ваше большее число первого сравнения:= " + z);
 			return z; 
+		}
+		public int Compare1(int c, int d) {
+			int e;
+			e = (c > d) ? c : d ;
+			System.out.println("Ваше большее число второго сравнения:= " + e);
+			return e; 
 		}
 }

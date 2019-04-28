@@ -7,8 +7,6 @@ public class Inheritance {
 		first f = new first();  //Наследование информации с первого класса (Создание ссылки на объект first) и тд. 
 		second s = new second(); //Наследование информации с первого класса 
 		third t = new third(); //Наследование информации с первого класса 
-		f.summa(r.a, r.b);  // Вызов класса 
-		s.Compare(r.c, r.d);
-		t.Compare(r.e, r.f);		
+		r.Scaner(f.summa(r.a, r.b), s.Compare(r.c, r.d), t.Compare1(r.e, r.f));		
 	}
 }
